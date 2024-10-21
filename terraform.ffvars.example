@@ -1,0 +1,33 @@
+ecx_client_id = "Uwwqewqeqweqweqweqweqwewqewqeqeqeqeqeqewqeqeqeqe"                              # <replace this with your equinix client id>
+ecx_client_secret = "qwqeqeqewqewqewqewqeqewqewqeqeqeqewqwqddsadsadsadsadsadsadsadasd"          # <replace this with your equinix client secret>
+aws_access_key = "sdadsdsadsadsadsadad"                                                         # <replace this with your aws access key>
+aws_secret_key = "asadsadadadsdsafsdvsdvdsvfsdvfvfdvdfvfdI"                                     # <replace this with your aws secret key>
+connection_name = "VC"
+connection_type = "IP_VC" 
+notifications_type = "ALL"
+notifications_emails = ["test@email.com"]                                                       # <replace this with your email ID>
+bandwidth = 50                                                                                  # <replace this with your required bandwidth>
+purchase_order_number = "1-3sadsa"                                                              # <replace this with your purchase ID>
+aws_zside_authentication_key = "asadsadasdsa"                                                   # <replace this with your AWS Account ID>
+aws_zside_seller_region = "ap-southeast-1"                                                      # <replace this with your AWS region>
+aws_zside_ap_type = "SP"                               
+aws_zside_profile_uuid = "ASASADSADSSDSFSFSFSDFSDFSFSDFSDFSFFD"                                 # <replace this with your AWS UUID>
+aws_zide_location = "SG"                                                                        # <replace this with your AWS location>
+aws_vif_name = "vifname_fcr2aws"                                  # <replace this with your AWS VIF name>
+aws_vif_address_family = "ipv4"                                  
+aws_vif_bgp_asn = 24116                                           # <replace this with the AS no: of your FCR>
+aws_vif_amazon_address = "192.168.1.2/30"                         # <replace this with the IP of your AWS VIF>
+aws_vif_customer_address = "192.168.1.1/30"                       # <replace this with the IP of your FCR>
+aws_vif_bgp_auth_key = "XXYYFFDDHH"                               # <replace this with the BGP authentication key of FCR>
+
+
+aws_vpc_cidr = "10.0.0.0/16"
+aws_vpc_name = "AWS_VPC_TEST01"                                    # <replace this with your AWS VPC Name>
+aws_subnet_cidr = "10.0.1.0/24"                                    # <replace this with your AWS subnet CIDR>
+aws_subnet_name = "TEST_SUBNET"                                   # <replace this with the name of AWS your Subnet>
+aws_vpg_name = "TEST_VPG"                                         # <replace this with the name of your AWS VGW>
+
+customer_asn = "64512"                                             # <replace this with BGP AS no: of your AWS VIF>
+BGPname = "L3_FCRSG_to_AWS_AWSside"                                #<replace this with your own connection name to AWS>
+bgp_key = "XXYYFFDDHH"                                             # <replace this with the BGP authentication key of AWS Dx>
+customer_peer_ip = "192.168.1.2"                                   # <replace this with the IP of your AWS VIF>
